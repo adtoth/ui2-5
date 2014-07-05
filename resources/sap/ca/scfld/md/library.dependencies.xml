@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<library  version="2.0" name="sap.ca.scfld.md">
+  <module name="sap/ca/scfld/md/ApplicationFacade.js" size="1945" compressedSize="421">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/ComponentBase.js" size="6631" compressedSize="3483">
+    <description>define a root UIComponent which exposes the main view</description>
+    <requires>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ca/scfld/md/ConfigurationBase.js"/>
+      <module name="sap/ui/core/routing/Router.js"/>
+      <module name="sap/ui/core/routing/History.js"/>
+      <module name="sap/m/routing/RouteMatchedHandler.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/ConfigurationBase.js" size="2344" compressedSize="815">
+    <requires>
+      <module name="sap/ca/scfld/md/ApplicationFacade.js"/>
+      <module name="sap/ca/scfld/md/app/ConnectionManager.js"/>
+      <module name="sap/ca/scfld/md/app/ApplicationImplementation.js"/>
+      <module name="sap/ca/scfld/md/app/Application.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/Startup.js" size="1143" compressedSize="680">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/Application.js" size="2727" compressedSize="1533">
+    <requires>
+      <module name="sap/ca/scfld/md/ApplicationFacade.js"/>
+      <module name="sap/ca/scfld/md/app/ApplicationImplementation.js"/>
+      <module name="sap/ui/app/Application.js"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/ApplicationImplementation.js" size="6236" compressedSize="3905">
+    <requires>
+      <module name="sap/ca/scfld/md/app/ConnectionManager.js"/>
+      <module name="sap/ca/scfld/md/app/MasterHeaderFooterHelper.js"/>
+      <module name="sap/ca/scfld/md/app/DetailHeaderFooterHelper.js"/>
+      <module name="sap/ca/scfld/md/app/FullScreenHeaderFooterHelper.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/ButtonListHelper.js" size="9577" compressedSize="5295">
+    <requires>
+      <module name="sap/ca/ui/dialog/Dialog.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/CommonHeaderFooterHelper.js" size="21353" compressedSize="12350">
+    <requires>
+      <module name="sap/ushell/ui/footerbar/JamShareButton.js"/>
+      <module name="sap/ushell/ui/footerbar/JamDiscussButton.js"/>
+      <module name="sap/ushell/ui/footerbar/AddBookmarkButton.js"/>
+      <module name="sap/ca/scfld/md/app/ButtonListHelper.js"/>
+      <module name="sap/ushell/services/AppConfiguration.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/ConnectionManager.js" size="9523" compressedSize="4274">
+    <requires>
+      <module name="sap/ui/core/util/MockServer.js"/>
+      <module name="sap/ca/ui/message/message.js"/>
+      <module name="sap/ca/ui/utils/busydialog.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/DetailHeaderFooterHelper.js" size="6535" compressedSize="3581">
+    <requires>
+      <module name="sap/ca/scfld/md/app/CommonHeaderFooterHelper.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/FullScreenHeaderFooterHelper.js" size="6428" compressedSize="3848">
+    <requires>
+      <module name="sap/ushell/ui/footerbar/JamShareButton.js"/>
+      <module name="sap/ushell/ui/footerbar/JamDiscussButton.js"/>
+      <module name="sap/ushell/ui/footerbar/AddBookmarkButton.js"/>
+      <module name="sap/ca/scfld/md/app/ButtonListHelper.js"/>
+      <module name="sap/ca/scfld/md/app/CommonHeaderFooterHelper.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/app/MasterHeaderFooterHelper.js" size="12643" compressedSize="7458">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/controller/BaseDetailController.js" size="2928" compressedSize="1599">
+    <requires>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/controller/BaseFullscreenController.js" size="3347" compressedSize="1812">
+    <requires>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ca/scfld/md/app/FullScreenHeaderFooterHelper.js"/>
+      <module name="sap/ca/scfld/md/app/Application.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/controller/BaseMasterController.js" size="14498" compressedSize="5373">
+    <requires>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/library.js" size="1282" compressedSize="557">
+    <description>Initialization Code and shared classes of library sap.ca.scfld.md (1.16.3)</description>
+    <requires>
+      <module name="sap/ui/core/Core.js"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/viz/library.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ca/ui/library.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/view/App.controller.js" size="108" compressedSize="90" raw="true">
+  </module>
+  <module name="sap/ca/scfld/md/view/App.view.xml" size="203">
+  </module>
+  <module name="sap/ca/scfld/md/view/MainSplitContainer.controller.js" size="190" compressedSize="177" raw="true">
+  </module>
+  <module name="sap/ca/scfld/md/view/MainSplitContainer.view.xml" size="303">
+  </module>
+  <module name="sap/ca/scfld/md/view/empty.controller.js" size="1627" compressedSize="1166">
+    <requires>
+      <module name="sap/ca/scfld/md/controller/BaseDetailController.js"/>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ca/scfld/md/view/empty.view.xml" size="590">
+  </module>
+</library>
