@@ -1,0 +1,2 @@
+jQuery.sap.declare("sap.ca.ui.PictureItemRenderer");sap.ca.ui.PictureItemRenderer={};
+sap.ca.ui.PictureItemRenderer.render=function(r,c){r.write("<div");r.writeControlData(c);r.addClass("sapCaUiPictureItem");r.writeClasses();r.addStyle("width",c.getWidth());r.addStyle("height",c.getHeight());r.writeStyles();r.writeAttribute("tabindex","0");r.write(">");r.renderControl(c._oImage);r.write("</div>")};
